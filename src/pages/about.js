@@ -1,15 +1,15 @@
 import React from "react"
 import { Link } from "gatsby"
 
-export default function() {
+export default function about() {
   return (
     <div>
-      <h1>Hello</h1>
+      <h1>About</h1>
       <p>
-        안녕하세요. 반갑습니다.
+        여기는 소개글입니다.
       </p>
       <ul>
-        <li><Link to="/about">About</Link></li>
+        <li><Link to="/">Home</Link></li>
       </ul>
     </div>
   )
