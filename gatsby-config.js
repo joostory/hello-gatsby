@@ -1,5 +1,5 @@
 module.exports = {
-  prefixPath: '/hello-gatsby',
+  pathPrefix: '/hello-gatsby',
   siteMetadata: {
     title: 'Hello, Gatsby!'
   },
