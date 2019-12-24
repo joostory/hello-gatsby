@@ -1,7 +1,9 @@
 module.exports = {
   pathPrefix: '/hello-gatsby',
   siteMetadata: {
-    title: 'Hello, Gatsby!'
+    title: 'Hello, Gatsby!',
+    description: 'Gatsby로 만든 웹사이트',
+    author: 'joostory'
   },
   plugins: [
     {
@@ -16,6 +18,7 @@ module.exports = {
       options: {
 
       }
-    }
+    },
+    'gatsby-plugin-react-helmet'
   ]
 }

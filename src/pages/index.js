@@ -1,12 +1,14 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import Container from "../components/Container"
+import SEO from '../components/SEO'
 
 export default function({data}) {
   const meta = data.site.siteMetadata
   const posts = data.allMarkdownRemark.edges
   return (
     <Container>
+      <SEO />
       <h1>{meta.title}</h1>
       <p>
         안녕하세요. 반갑습니다.
