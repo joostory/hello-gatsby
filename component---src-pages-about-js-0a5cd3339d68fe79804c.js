@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{"3XHS":function(e,n,t){"use strict";t.r(n),t.d(n,"default",(function(){return o}));var l=t("q1tI"),a=t.n(l),u=t("Wbzz"),r=t("VUD3"),c=t("EYWl");function o(){return a.a.createElement(r.a,null,a.a.createElement(c.a,null),a.a.createElement("h1",null,"About"),a.a.createElement("p",null,"여기는 소개글입니다."),a.a.createElement("ul",null,a.a.createElement("li",null,a.a.createElement(u.a,{to:"/"},"Home"))))}}}]);
+//# sourceMappingURL=component---src-pages-about-js-0a5cd3339d68fe79804c.js.map
