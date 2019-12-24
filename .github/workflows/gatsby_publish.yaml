@@ -19,7 +19,7 @@ jobs:
           npm ci
           npm run build -- --prefix-paths
       - uses: peaceiris/actions-gh-pages@v2
-        with:
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: ./public
